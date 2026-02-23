@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Bacha ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            color: #ff4e73;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .heart {
+            font-size: 40px;
+            animation: heartbeat 1.2s infinite;
+            color: #ff4e73;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.2); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="heart">❤️</div>
+        <h1>My Sweet Bacha</h1>
+        <p>
+            From the moment you came into my life, everything became more beautiful.  
+            Your smile lights up my darkest days, and your laughter is my favorite melody.
+        </p>
+        <p>
+            You are not just my girlfriend, you are my peace, my happiness, and my biggest blessing.  
+            I promise to always protect your smile, hold your hand, and love you more every single day.
+        </p>
+        <p>
+            I love you endlessly, my cute little Bacha ❤️
+        </p>
+        <footer>
+            Made with love, just for you 💕
+        </footer>
+    </div>
+
+</body>
+</html>
